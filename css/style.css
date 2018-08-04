@@ -4,8 +4,9 @@ body {
 
 /* Containers */
 
-.alert-container {
-
+.alert-container .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .callout-container {
@@ -39,6 +40,70 @@ body {
 
 .favourites-container {
     
+}
+
+/* Navbar */
+
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: 0;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.navbar-btn {
+    border-radius: 16px;
+    width: 100px;
+    border: 0;
+    background-color: #ff6305;
+    color: #fff;
+}
+
+.navbar-btn:hover {
+    color: #fff;
+    background-color: #ff6305;
+    border-color: #ff6305;
 }
 
 /* Jumbotron */
@@ -98,4 +163,16 @@ body {
     color: #fff;
     background-color: #ff6305;
     border-color: #ff6305;
+}
+
+/* Alerts */
+
+.site-wide-alert {
+    color: #8f7800;
+    background-color: #ffd600;
+    border-color: #ffd600;
+    padding: 5px 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 0;
 }

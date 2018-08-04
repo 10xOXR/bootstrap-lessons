@@ -14,46 +14,50 @@
 <body>
     <!-- NAV -->
     <nav class="navbar navbar-default">
+        <!-- ALERT -->
+        <div class="container-fluid alert-container hidden-xs">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="site-wide-alert alert alert-warning">
+                            <strong>Sale now on!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="/">See here for more details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- /alert -->
+
         <div class="container-fluid">
-            <!-- LOGO -->
             <div class="navbar-header">
                 <a href="/" class="navbar-brand">
                     Whiskey Drop
                 </a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-            <!-- /logo -->
 
             <!-- NAVBAR -->
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li class="visible-xs"><a href="/login">Sign In</a></li>
-            </ul>
-            <!-- /navbar -->
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li class="visible-xs"><a href="/login">Sign In</a></li>
+                </ul>
+                <!-- /navbar -->
 
-            <!-- MESSAHE -->
-            <div class="navbar-header navbar-right hidden-xs">
-                <a ref="/login" class="btn btn-default navbar-btn">Sign In</a>
-                <p class="navbar-text">
-                    <i>Great whiskeys delivered to your door</i>
-                </p>
+                <!-- MESSAHE -->
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a ref="/login" class="btn btn-default navbar-btn">Sign In</a>
+                    <p class="navbar-text"><i>Great whiskeys delivered to your door</i></p>
+                </div>
+                <!-- /message -->
             </div>
-            <!-- /message -->
         </div>
     </nav>
     <!-- /nav -->
-    
-    <div class="container alert-container">
-        <!-- ALERT -->
-        <div class="row hidden-xs">
-            <div class="col-xs-12">
-                <div class="alert alert-warning">
-                    <strong>Sale now on!</strong> We've got a sale on. Get a 12-month subscription for the price of 6! <a href="/">See here for more details</a>
-                </div>
-            </div>
-        </div>
-    </div>
-        <!-- ALERT -->
         
     <div class="container-fluid callout-container">
         <div class="opaque-overly">&nbsp</div>
