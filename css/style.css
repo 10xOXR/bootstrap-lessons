@@ -30,16 +30,17 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quotes-container {
-    
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
-.features-container {
-    
+.container-wrapper {
+
 }
 
-.favourites-container {
-    
+.container-wrapper--purple {
+    background-color: #ff770750;
 }
 
 /* Navbar */
@@ -96,14 +97,14 @@ body {
     border-radius: 16px;
     width: 100px;
     border: 0;
-    background-color: #ff6305;
+    background-color: #ff7707;
     color: #fff;
 }
 
 .navbar-btn:hover {
     color: #fff;
-    background-color: #ff6305;
-    border-color: #ff6305;
+    background-color: #d86404;
+    border-color: #ff7707;
 }
 
 /* Jumbotron */
@@ -133,14 +134,15 @@ body {
     width: 75px;
     height: 5px;
     border: 0;
+    background-color: #444;
 }
 
 .block-divider--orange {
-    background-color: #ff6305;
+    background-color: #ff7707;
 }
 
 .block-divider--short {
-    width: 45px;
+    width: 35px;
 }
 
 /* Buttons */
@@ -152,8 +154,8 @@ body {
 
 .btn--red {
     color: #fff;
-    background-color: #ff6305;
-    border-color: #ff6305;
+    background-color: #ff7707;
+    border-color: #ff7707;
 }
 
 .btn--red:hover,
@@ -161,8 +163,8 @@ body {
 .btn--red:focus,
 .btn--red:active:focus {
     color: #fff;
-    background-color: #ff6305;
-    border-color: #ff6305;
+    background-color: #d86404;
+    border-color: #ff7707;
 }
 
 /* Alerts */
@@ -175,4 +177,55 @@ body {
     margin-bottom: 20px;
     border: 1px solid transparent;
     border-radius: 0;
+}
+
+/* Page Headers */
+
+.page-header {
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/* Quotes */
+
+blockquote.quote {
+    border-left: 0;
+}
+
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
+/* Features */
+
+.features {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.features .glyphicon {
+    display: block;
+    font-size: 45px;
+    line-height: 45px;
+    padding-bottom: 20px;
+    color: #ff7707;
+}
+
+.features .btn {
+    min-width: 100px;
+    border-radius: 15px;
+    border-color: #fff;
+    background-color: #fff;
+    font-weight: bold;
+    color: #ff7707;
+    margin-top: 10px;
+}
+
+.features h3 {
+    font-weight: bold;
 }
